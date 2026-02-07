@@ -36,6 +36,22 @@ npm i
 npm run dev
 ```
 
+Push modifications:
+
+```sh
+# Step 1: Status.
+git status
+
+# Step 2: Tout selectionné.
+git add .
+
+# Step 3: Commit.
+git commit -m "Improve UI / styles / layout"
+
+# Step 4: PUSH final.
+git push
+```
+
 **Edit a file directly in GitHub**
 
 - Navigate to the desired file(s).

@@ -51,11 +51,20 @@ export const LibraryCard = ({ movie, index = 0 }: LibraryCardProps) => {
         {/* Remove button */}
         <button
           onClick={() => removeFromLibrary(movie.id)}
-          className={cn(
-            "absolute top-2 right-2 p-2 rounded-xl glass-subtle opacity-0 group-hover:opacity-100",
-            "text-foreground-muted hover:text-destructive hover:bg-destructive/20 transition-all duration-300 touch-target",
-          )}
           aria-label={`Remove ${movie.title} from library`}
+          className={cn(
+            "absolute top-2 right-2",
+            "flex items-center justify-center",
+            "w-9 h-9 rounded-full",
+            "bg-background/70 backdrop-blur-md",
+            "border border-white/10",
+            "shadow-md",
+            "opacity-0 group-hover:opacity-100",
+            "transition-all duration-300 ease-out",
+            "hover:bg-destructive/20 hover:scale-110",
+            "hover:text-destructive",
+            "focus:outline-none focus:ring-2 focus:ring-destructive/40",
+          )}
         >
           <Trash2 className="w-4 h-4" />
         </button>
