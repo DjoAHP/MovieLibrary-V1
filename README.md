@@ -1,8 +1,18 @@
 # Welcome to your Lovable project
 
-## Project info
+## Project info Lovable
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+**URL**: https://lovable.dev/projects/77961bff-3acb-4244-afbb-5a9c9f432648
+
+## Table Supabase
+
+**URL**: https://supabase.com/dashboard/project/mptpkosdhklcfodsbyum/editor/17494
+
+## Table Netlify
+
+**URL**: https://movie-library-v1.netlify.app
+
+/////////////////////////////////////////
 
 ## How can I edit this code?
 
@@ -10,7 +20,7 @@ There are several ways of editing your application.
 
 **Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Simply visit the [Lovable Project](https://lovable.dev/projects/77961bff-3acb-4244-afbb-5a9c9f432648) and start prompting.
 
 Changes made via Lovable will be committed automatically to this repo.
 

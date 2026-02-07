@@ -32,11 +32,11 @@ const Home = () => {
             <Film className="w-6 h-6 text-primary-foreground" />
           </div>
           <h1 className="font-display text-2xl font-bold text-foreground">
-            MoviesList
+            MoviesSearch
           </h1>
         </div>
         <p className="text-foreground-muted text-sm">
-          Suivez vos films et séries préférés
+          Recherche tes films et séries préférés
         </p>
       </header>
 
@@ -45,7 +45,7 @@ const Home = () => {
         <SearchBar
           value={searchQuery}
           onChange={setSearchQuery}
-          placeholder="Rechercher des films et séries télévisées..."
+          placeholder="Rechercher films ou séries..."
         />
       </div>
 
